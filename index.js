@@ -1,5 +1,3 @@
-const roundTo = require('round-to');
-
 module.exports = function(val) {
-    return roundTo(val, 8);
+    return parseFloat(val.toFixed(8));
 }

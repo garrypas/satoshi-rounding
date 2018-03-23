@@ -13,5 +13,10 @@ describe("satoshi-rounding-tests", function() {
     it("round() -> Rounds down", function(done) {
         expect(roundSats(0.123456781)).to.equal(0.12345678);
         done();
-	});
+    });
+    
+    it("round() -> rounds small numbers", (done) => {
+        expect(roundSats(0.000000008)).to.equal(0.00000001);
+        done();
+    })
 });
