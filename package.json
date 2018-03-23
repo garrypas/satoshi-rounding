@@ -1,0 +1,21 @@
+{
+  "name": "satoshi-rounding",
+  "version": "1.0.0",
+  "description": "A simple JavaScript wrapper around round-to, for rounding numbers to sats (i.e. to 8 dp). Because typing ', 8' is too much.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "satoshi",
+    "bitcoin",
+    "rounding",
+    "javascript"
+  ],
+  "author": "garrypas",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "round-to": "^2.0.0"
+  }
+}
